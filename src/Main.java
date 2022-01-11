@@ -3,7 +3,6 @@ public class Main {
         Animal animal = new Animal();
         Cat cat = new Cat();
 
-        animal.move();  // Запускает метод в классе Animal
-        cat.move();  // Запускает метод в классе Cat
+
     }
 }

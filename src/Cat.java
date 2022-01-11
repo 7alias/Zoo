@@ -1,6 +1,5 @@
-public class Cat extends Animal {
-    @Override
-    public void move() {
-        System.out.println("Кошка умеет двигаться очень тихо");
+public class Cat extends Mammal {
+    public void print(){
+        System.out.println("I am a Cat");
     }
 }
