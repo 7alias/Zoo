@@ -9,5 +9,7 @@ public class Test {
         System.out.println(r instanceof Mammal);
         System.out.println(d instanceof Dog);
         d.print();
+        r.print();
+        c.print();
     }
 }
