@@ -1,5 +1,10 @@
-class Reptile extends Animal {
+class Reptile extends Object {
     public void print() {
-        System.out.println("I am a Reptile");
+        System.out.println(this);
+    }
+
+    @Override
+    public String toString() {
+        return "I am a Reptile";
     }
 }

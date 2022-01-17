@@ -1,10 +1,11 @@
-public class Animal {
+public class PopcornStall extends Object {
+
     public void print(){
         System.out.println(this);
     }
 
     @Override
     public String toString() {
-        return "I am an Animal";
+        return "It's popcorn stall";
     }
 }
