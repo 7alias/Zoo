@@ -1,7 +1,12 @@
-public class PopcornStall extends Object {
+public class PopcornStall extends Object implements Soundable{
 
     public void print(){
         System.out.println(this);
+    }
+
+    @Override
+    public void sound() {
+        System.out.println("Taste a better popcorn here!");
     }
 
     @Override

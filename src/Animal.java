@@ -1,8 +1,8 @@
-abstract public class Animal {
+abstract public class Animal extends Object {
     public void print(){
         System.out.println(this);
     }
-    abstract public void sound();
+
 
     @Override
     public String toString() {
