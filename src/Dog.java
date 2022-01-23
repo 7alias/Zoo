@@ -1,4 +1,4 @@
-public class Dog extends Mammal {
+public class Dog extends Mammal implements Soundable {
     public void print() {
         System.out.println(this);
     }
@@ -14,4 +14,10 @@ public class Dog extends Mammal {
     public String toString() {
         return "I am a Dog";
     }
+
+    @Override
+    public void sound() {
+        System.out.println("Woof");
+    }
+
 }
